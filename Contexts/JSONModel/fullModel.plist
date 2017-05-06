@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>spec</key>
+	<dict>
+		<key>fields</key>
+		<array>
+			<dict>
+				<key>type</key>
+				<string>string</string>
+				<key>optional</key>
+				<true/>
+				<key>name</key>
+				<string>firstName</string>
+				<key>doc</key>
+				<string>First name of the unit test</string>
+			</dict>
+			<dict>
+				<key>type</key>
+				<string>string</string>
+				<key>name</key>
+				<string>lastName</string>
+			</dict>
+			<dict>
+				<key>type</key>
+				<string>array</string>
+				<key>element</key>
+				<string>UnitTestClass</string>
+				<key>name</key>
+				<string>friends</string>
+			</dict>
+			<dict>
+				<key>type</key>
+				<string>array</string>
+				<key>element</key>
+				<string>UnitTestClass</string>
+				<key>name</key>
+				<string>optFriends</string>
+				<key>optional</key>
+				<true/>
+				<key>doc</key>
+				<string>An optional array</string>
+			</dict>
+			<dict>
+				<key>type</key>
+				<string>int</string>
+				<key>name</key>
+				<string>age</string>
+				<key>optional</key>
+				<true/>
+			</dict>
+		</array>
+		<key>type</key>
+		<string>UnitTestClass</string>
+	</dict>
+</dict>
+</plist>
